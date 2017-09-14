@@ -5,9 +5,9 @@
  * Contains \Drupal\react_live_chat\ReactLiveChat.
  */
 
-namespace Drupal\react_live_chat;
+ namespace Drupal\react_live_chat\Controller;
 
-use Drupal\Core\Controller\ControllerBase;
+use \Drupal\Core\Controller\ControllerBase;
 
 class ReactLiveChat extends ControllerBase {
   /**
