@@ -1,0 +1,7 @@
+react_chat.content:
+  path: '/react_chat'
+  defaults:
+    _controller: '\Drupal\react_chat\Controller\ReactChat::content'
+    _title: 'React Live Chat'
+  requirements:
+    _permission: 'access content'

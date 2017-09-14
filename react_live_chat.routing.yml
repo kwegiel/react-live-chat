@@ -1,7 +1,0 @@
-react_live_routing.content:
-  path: '/react_live_chat'
-  defaults:
-    _controller: '\Drupal\react_live_chat\Controller\ReactLiveChat::content'
-    _title: 'React Live Chat'
-  requirements:
-    _permission: 'access content'

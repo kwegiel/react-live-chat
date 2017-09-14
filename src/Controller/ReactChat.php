@@ -2,14 +2,14 @@
 
 /**
  * @file
- * Contains \Drupal\react_live_chat\ReactLiveChat.
+ * Contains \Drupal\react_chat\ReactLiveChat.
  */
 
- namespace Drupal\react_live_chat\Controller;
+ namespace Drupal\react_chat\Controller;
 
 use \Drupal\Core\Controller\ControllerBase;
 
-class ReactLiveChat extends ControllerBase {
+class ReactChat extends ControllerBase {
   /**
    * Display the markup.
    *
