@@ -1,8 +1,13 @@
 <? php
 
-namespace Drupal\react_live_chat\Controller;
+/**
+ * @file
+ * Contains \Drupal\react_live_chat\ReactLiveChat.
+ */
 
-use Drupal\core\Controller\ControllerBase;
+namespace Drupal\react_live_chat;
+
+use Drupal\Core\Controller\ControllerBase;
 
 class ReactLiveChat extends ControllerBase {
   /**
