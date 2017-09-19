@@ -18,7 +18,7 @@ class ReactChat extends ControllerBase {
    public function content() {
      return array(
        '#type' => 'markup',
-       '#markup' => '<div id="reactchat"></div>',
+       '#markup' => $this->t('React Live Chat'),
        '#attached' => [
           'library' =>  [
               'react_chat/react.min',

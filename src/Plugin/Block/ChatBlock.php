@@ -22,7 +22,14 @@
        */
       public function build() {
         return array(
-          '#markup' => $this->t('Hello, World!'),
+          '#markup' => '<div id="reactchat"></div>',
+          '#attached' => [
+            'library' =>  [
+                'react_chat/react.min',
+                'react_chat/react.dom.min',
+                'react_chat/react.chat'
+            ],
+          ],
         );
       }
     
