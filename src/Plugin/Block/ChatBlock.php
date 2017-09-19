@@ -1,7 +1,7 @@
 <?php
 /**
  * @file
- * Contains \Drupal\reactjs_example\Plugin\Block\ChatBlock.
+ * Contains \Drupal\react_chat\Plugin\Block\ChatBlock.
  */
 
 namespace Drupal\reactjs_example\Plugin\Block;
@@ -21,7 +21,10 @@ class ChatBlock extends BlockBase {
    */
   public function build() {
     $build = [];
-    $build['react_chat']['#markup'] = '<div id="reactchat"></div>';    
+    $build['react_chat']['#markup'] = '<div id="reactchat"></div>';  
+    $build['#attached']['library'][] = 'react_chat/react.min';  
+    $build['#attached']['library'][] = 'react_chat/react.dom.min';  
+    $build['#attached']['library'][] = 'react_chat/react.chat';  
     return $build;
   }
 }
