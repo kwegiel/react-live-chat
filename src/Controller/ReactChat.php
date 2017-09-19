@@ -19,6 +19,13 @@ class ReactChat extends ControllerBase {
      return array(
        '#type' => 'markup',
        '#markup' => '<div id="reactchat"></div>',
+       '#attached' => [
+          'library' =>  [
+              'react_chat/react.min',
+              'react_chat/react.dom.min',
+              'react_chat/react.chat'
+          ],
+        ],
      );
    }
 }
