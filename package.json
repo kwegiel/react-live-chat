@@ -1,0 +1,29 @@
+{
+  "name": "react_live_chat",
+  "version": "1.0.0",
+  "description": "Drupal 8 module, react js based live chat for drupal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack",
+    "start": "http-server"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwegiel/react-live-chat.git"
+  },
+  "author": "Krzysztof Wegiel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwegiel/react-live-chat/issues"
+  },
+  "homepage": "https://github.com/kwegiel/react-live-chat#readme"
+}
