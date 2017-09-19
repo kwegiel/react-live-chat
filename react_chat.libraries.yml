@@ -1,0 +1,17 @@
+react.min:
+  version: VERSION
+  js:
+    /libraries/reactjs/build/react.min.js: {}
+
+react.dom.min:
+  version: VERSION
+  js:
+    /libraries/reactjs/build/react-dom.min.js: {}
+
+react.chat:
+  version: VERSION
+  js:
+    js/reactchat.js: {}
+  css:
+    theme:
+      css/reactchat.css: {}
