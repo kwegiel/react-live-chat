@@ -1,12 +1,12 @@
 react.min:
   version: VERSION
   js:
-    /libraries/reactjs/build/react.min.js: {}
+    /libraries/reactjs/build/react.developmnet.js: {}
 
 react.dom.min:
   version: VERSION
   js:
-    /libraries/reactjs/build/react-dom.min.js: {}
+    /libraries/reactjs/build/react-dom.developmnet.js: {}
 
 react.chat:
   version: VERSION
